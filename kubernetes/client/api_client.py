@@ -183,7 +183,7 @@ class ApiClient(object):
             _preload_content=_preload_content,
             _request_timeout=_request_timeout)
 
-        self.last_response = response_data
+        # self.last_response = response_data
 
         return_data = response_data
         if _preload_content:
